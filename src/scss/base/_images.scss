@@ -1,0 +1,73 @@
+.img_logo {
+    width: 110%;
+    height: 100%;
+    object-fit: contain;
+
+    max-width: 250px;
+
+    // MOBILE
+    @include media_max(phone) {
+        max-width: 190px;
+    }
+    // TABLET
+    @include media_minmax(phone, tablet) {
+        max-width: 250px;
+    }
+    // DESKTOP
+    @include media_min(tablet) {
+        max-width: 250px;
+    }
+    
+    object-position: bottom;
+}
+
+.img_card_small {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 2px 4px 6px #00000047;
+}
+
+.img_sinscrire {
+    width: 60px;
+}
+
+.img_drapeau {
+    max-width: 32px;
+}
+
+.afps_icon {
+    width: 20px;
+}
+
+figure {
+ display: flex;
+ position: relative;
+ z-index: -5;
+ 
+ figcaption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    
+ }
+}
+
+.img_desktop {
+    @include media_max(tablet_small) {
+            display: none;
+    }
+}
+.img_mobile {
+    @include media_min(tablet_small) {
+            display: none;
+    }
+}
+
