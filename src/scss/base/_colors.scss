@@ -1,0 +1,85 @@
+/* SCSS */
+/* VARIABLES */
+/* COLORS */
+
+// /////////////////////////////////
+// VARIABLES DES COULEURS
+// /////////////////////////////////
+
+// NOIR
+$color_noir: #343434;
+$color_noir_fonce: #454343;
+$color_noir_clair: #1c1c1c;
+$color_gris_tres_fonce: #585858;
+$color_gris_fonce: #707070;
+$color_gris_moyen: #A4A4A4;
+$color_gris_clair: #A2A0A0;
+$color_gris_tres_clair: #dfdfdf;
+$color_gris_leger: #f0f0f0;
+$color_gris_bleu: #455868;
+
+$color_rouge: #E73058;
+$color_rouge_clair: #F0848F;
+$color_rouge_tres_clair: #e7305821;
+$color_blanc: white;
+$color_bleu: #3644AC;
+$color_bleu_clair: #7984D1;
+$color_bleu_clair2: #525EBB;
+$color_bleu_fonce_1: #1B299A;
+$color_bleu_fonce_2: #101D77;
+
+$color_bleugris: #6D798A;
+
+$color_bleu_eau: #5DDED3;
+$color_bleu_eau_clair: #c3fffa;
+
+// /////////////////////////////////
+// CSS COULEURS
+// /////////////////////////////////
+
+.rouge {
+    color: $color_rouge !important;
+}
+
+.gris_tres_fonce {
+    color: $color_gris_tres_fonce !important;
+}
+
+.color_bleu_eau {
+    color: $color_bleu_eau !important;
+}
+
+.bg_green {
+    background-color: green !important;
+}
+
+.bg_rouge_tres_clair {
+    background-color: $color_rouge_tres_clair;
+}
+
+.bg_rouge {
+    background-color: $color_rouge;
+}
+.bg_grey_blue {
+    background-color: $color_gris_bleu;
+}
+.bg_bleu_eau {
+    background-color: $color_bleu_eau;
+}
+.bg_color_bleu_eau_clair {
+    background-color: $color_bleu_eau_clair;
+}
+
+.bg_color_gris_tres_fonce {
+    background-color: $color_gris_tres_fonce;
+}
+
+mark {
+    background: $color_rouge_tres_clair !important;
+}
+
+.border_gris_7px {
+    border: 7px solid $color_gris_fonce;
+}
+
+
